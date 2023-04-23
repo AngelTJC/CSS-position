@@ -1,9 +1,22 @@
+/*
+    position: static | relative | absolute | fixed | sticky
+
+    Propiedades offset
+    - top
+    - left
+    - right
+    - bottom
+*/
+
 .container{
-    outline: 6px solid blueviolet;
+    outline: 1px solid;
+    height: 400px;
 }
 
-.container p{
-    padding: 1rem;
-    border: 10px solid;
-    display: none;
+.p-2 {
+    background: chartreuse;
+    opacity: 0.5;
+    position: relative;
+    top: 50%;
+    left: 50%;
 }
