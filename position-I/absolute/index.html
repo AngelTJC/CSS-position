@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Absolute</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Position Absolute</h1>
+        <h2>Caracteristicas</h2>
+        <ul>
+            <li>Pierde su espacio reservado, el elemento se elimina del flujo normal de la página</li>
+            <li>Se posiciona de acuerdo al primer elemento padre que tenga una posicion definida</li>
+            <li>Si el elemento padre no esta posicionado en relacion al hijo, entonces el elemento con 'position:absolute' se posiciona en relación a la ventana del navegador (viewport).</li>
+        </ul>
+        <div class="box__container">
+
+            <div class="box-1">uno</div>
+
+                <div class="box-2">dos</div>
+
+            <div class="box-3">tres</div>
+        </div>
+    </div>
+</body>
+</html>

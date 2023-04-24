@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+    color: rgb(43, 39, 39);
+}
+
+.container {
+    margin: 10vh auto;
+    max-width: 60vw;
+}
+
+h1 {
+    font-size: 3.2rem;
+    margin-bottom: 3.2rem;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1.6rem;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+ul {
+    margin-bottom: 3.2rem;
+}
+
+.container li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    margin-bottom: 1.6rem;
+}
+
+.box__container {
+    background-color: rgb(248, 218, 247);
+    border: 5px solid gray;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    margin: 1rem auto;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+}
+
+.box-1 {
+    background-color: rgb(0, 238, 255);
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+}
+
+.box-2 {
+    background-color: rgba(0, 255, 162, 0.692);
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    opacity: 0.8;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box-3 {
+    background-color: rgb(0, 238, 255);
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+}
