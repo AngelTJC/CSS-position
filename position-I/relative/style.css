@@ -4,15 +4,62 @@
     -Su posicion inicial en la web
 */
 
-.container{
-    background-color:blueviolet;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.p-2{
-    margin-top: 0;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
+    color: rgb(75, 73, 73);
+}
+
+.container{
+    margin: 10vh auto;
+    max-width: 60vw;
+}
+
+.box__container {
+    background-color: rgba(255, 255, 0, 0.479);
+    border: 1px solid gray;
+    width: 500px;
+    height: 500px;
+    margin: 1rem auto;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-1 {
+    background-color: greenyellow;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+}
+
+.wrapper{
+    width: 150px;
+    height: 150px;
+    border: 3px dashed hsl(219, 100%, 50%);
+}
+
+.box-2 {
+    background-color: rgb(0, 255, 255);
+    border: 1px solid black;
+    width: inherit;
+    height: inherit;
     position: relative;
-    background-color: pink;
-    opacity: 0.7;
-    bottom: 5rem;
-    right: 2rem;
+    opacity: 0.8;
+    top: -80px;
+    left: -90px;
+}
+
+.box-3 {
+    background-color: turquoise;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
 }
