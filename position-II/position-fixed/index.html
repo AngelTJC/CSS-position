@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position fixed</title>
+    <link rel="stylesheet" href="./styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1 class="title">Position Fixed</h1>
+
+    <p class="texto">Cuando se utiliza <strong>position: fixed</strong> en un elemento, ese elemento se elimina del
+        <i>flujo</i> normal de la pagina y se posiciona de acuerdo al <i>viewport</i></p>
+
+    <p class="subtitle">¿Que es el flujo?</p>
+    <p class="texto">El flujo es el orden en el que los elementos aparencen en la página.</p>
+
+    <p class="subtitle">¿Que es viewport?</p>
+    <p class="texto">Es el área visible del navegador donde se muestra el contenido web, y no es necesariamente toda la
+        pantalla del navegador. El viewport es una etiqueta de HTML que indica el tamaño de la ventana o área visible de una
+        pantalla.</p>
+
+    <ul class="caracteristicas">
+        <h2 class="carac__title">Caracteristicas</h2>
+        <li>Se eliminará del flujo normal de la página y no ocupará espacio en la página.</li>
+        <li>Se posiciona en relacion al viewport(pantalla), sin importar su posicion en relación a otros elementos en la
+            página.</li>
+        <li>Podemos posicionar en cualquier coordenada en el viewport con la propiedades top, left, bottom, right</li>
+    </ul>
+    <div class="container">
+        <div class="box box-1">1</div>
+        <div class="box box-2">2 position fixed</div>
+        <div class="box box-3">3</div>
+    </div>
+</body>
+
+</html>
